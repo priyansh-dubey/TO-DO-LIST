@@ -1,0 +1,112 @@
+body{
+    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#container{
+
+    
+    background-color: cadetblue;
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;  	
+    
+}
+
+#main{
+    width: 100%;
+    max-width: 430px;
+    background-color: beige;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+    user-select: none;
+}
+
+#main h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#inputText{
+
+    width: 250px;
+    height: 30px;
+    margin-left: 10% ;
+    margin-right: 10px;
+    border-width: 0px;
+    padding: 3px;
+    text-align: center;
+    border-radius: 10px;
+    
+
+}
+
+#container button{
+
+    width: 10opx;
+    height: 35px;
+    padding: 0px 7px 0px 7px;
+    background-color: rgb(255, 132, 44);
+    box-shadow: 2px 5px 10px rgb(179, 156, 135);
+    border-radius: 50px;
+    border-width: 0cap;
+    font-weight: bold;
+}
+
+#container button:hover{
+
+    background-color: rgb(0, 255, 55);
+    box-shadow: 3px 5px 10px green;
+    cursor: pointer;
+}
+
+#container p{
+    text-align: center;
+    font-size: 15px;
+    user-select: none;
+}
+
+ul li{
+    
+    font-size: 17px;
+    margin: 10px 60px 0px 5px;
+    user-select: none;
+    padding: 10px 0px 10px 0px;
+    cursor: pointer;
+    word-wrap: break-word;
+
+}
+
+ul li::before{
+    content: '';
+    position: absolute; 
+
+}
+
+
+ul li.checked{
+    text-decoration: line-through;
+    font-size:large;
+    
+}
+
+ul li span{
+    position: absolute;   
+    font-size:20px;
+    border-bottom: 2px solid rgb(226, 0, 0);
+    border-radius: 10PX;
+    margin: 0;
+    padding: 0px 10px 0px 10px;
+    margin-left: 30PX;
+
+}
+
+ul li span:hover{
+
+    background-color: rgb(255, 85, 85);
+}
